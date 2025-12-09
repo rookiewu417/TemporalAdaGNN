@@ -1,0 +1,50 @@
+=== 实验启动: 20251209_002245 ===
+输出目录: runs\20251209_002245_Temporal_AdaGNN
+设备: cuda
+正在加载数据: 366FactorsData_standard.parquet ...
+数据集统计: 节点数=5143, 总天数=719, 特征维度=366
+正在构建全局内存张量 (Pinned Memory)...
+数据构建完毕。
+
+>>> 开始训练...
+Epoch 01 | Loss: 0.6964 | Train IC: 0.1413 | Valid IC: 0.0753
+  >>> New Best Found! Saved to runs\20251209_002245_Temporal_AdaGNN\best_model.pth
+Epoch 02 | Loss: 0.6531 | Train IC: 0.1908 | Valid IC: 0.0824
+  >>> New Best Found! Saved to runs\20251209_002245_Temporal_AdaGNN\best_model.pth
+Epoch 03 | Loss: 0.6322 | Train IC: 0.2164 | Valid IC: 0.0700
+Epoch 04 | Loss: 0.6112 | Train IC: 0.2422 | Valid IC: 0.0767
+Epoch 05 | Loss: 0.5602 | Train IC: 0.3052 | Valid IC: 0.1121
+  >>> New Best Found! Saved to runs\20251209_002245_Temporal_AdaGNN\best_model.pth
+Epoch 06 | Loss: 0.4898 | Train IC: 0.3920 | Valid IC: 0.1313
+  >>> New Best Found! Saved to runs\20251209_002245_Temporal_AdaGNN\best_model.pth
+Epoch 07 | Loss: 0.4386 | Train IC: 0.4552 | Valid IC: 0.1434
+  >>> New Best Found! Saved to runs\20251209_002245_Temporal_AdaGNN\best_model.pth
+Epoch 08 | Loss: 0.4053 | Train IC: 0.4965 | Valid IC: 0.1446
+  >>> New Best Found! Saved to runs\20251209_002245_Temporal_AdaGNN\best_model.pth
+Epoch 09 | Loss: 0.3736 | Train IC: 0.5359 | Valid IC: 0.1480
+  >>> New Best Found! Saved to runs\20251209_002245_Temporal_AdaGNN\best_model.pth
+Epoch 10 | Loss: 0.3462 | Train IC: 0.5697 | Valid IC: 0.1452
+Epoch 11 | Loss: 0.3263 | Train IC: 0.5944 | Valid IC: 0.1422
+Epoch 12 | Loss: 0.3132 | Train IC: 0.6106 | Valid IC: 0.1336
+Epoch 13 | Loss: 0.3062 | Train IC: 0.6192 | Valid IC: 0.1289
+Epoch 14 | Loss: 0.3006 | Train IC: 0.6261 | Valid IC: 0.1409
+Epoch 15 | Loss: 0.2967 | Train IC: 0.6310 | Valid IC: 0.1259
+Epoch 16 | Loss: 0.2932 | Train IC: 0.6354 | Valid IC: 0.0866
+Epoch 17 | Loss: 0.2887 | Train IC: 0.6410 | Valid IC: 0.1138
+Epoch 18 | Loss: 0.2859 | Train IC: 0.6444 | Valid IC: 0.1038
+Epoch 19 | Loss: 0.2852 | Train IC: 0.6454 | Valid IC: 0.1125
+Epoch 20 | Loss: 0.2826 | Train IC: 0.6486 | Valid IC: 0.1153
+Epoch 21 | Loss: 0.2794 | Train IC: 0.6526 | Valid IC: 0.1073
+Epoch 22 | Loss: 0.2763 | Train IC: 0.6563 | Valid IC: 0.1255
+Epoch 23 | Loss: 0.2726 | Train IC: 0.6610 | Valid IC: 0.1294
+Epoch 24 | Loss: 0.2666 | Train IC: 0.6685 | Valid IC: 0.1274
+Epoch 25 | Loss: 0.2657 | Train IC: 0.6697 | Valid IC: 0.1320
+Epoch 26 | Loss: 0.2664 | Train IC: 0.6687 | Valid IC: 0.1270
+Epoch 27 | Loss: 0.2632 | Train IC: 0.6727 | Valid IC: 0.1265
+Epoch 28 | Loss: 0.2628 | Train IC: 0.6731 | Valid IC: 0.1048
+Epoch 29 | Loss: 0.2592 | Train IC: 0.6777 | Valid IC: 0.1261
+Epoch 30 | Loss: 0.2502 | Train IC: 0.6889 | Valid IC: 0.1416
+
+训练结束. Best Valid IC: 0.1480
+曲线图已保存: runs\20251209_002245_Temporal_AdaGNN\training_curves.png
+所有结果已保存完毕。

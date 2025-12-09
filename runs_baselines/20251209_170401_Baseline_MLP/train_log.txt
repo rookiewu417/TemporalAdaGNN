@@ -1,0 +1,32 @@
+
+############################################################
+### 开始训练模型: MLP
+### 输出目录: runs_baselines\20251209_170401_Baseline_MLP
+############################################################
+
+Epoch 01 | Loss: 0.7132 | Valid IC: 0.0955
+  >>> New Best MLP Saved (IC: 0.0955)
+Epoch 02 | Loss: 0.6705 | Valid IC: 0.0939
+Epoch 03 | Loss: 0.6617 | Valid IC: 0.0953
+Epoch 04 | Loss: 0.6565 | Valid IC: 0.0989
+  >>> New Best MLP Saved (IC: 0.0989)
+Epoch 05 | Loss: 0.6531 | Valid IC: 0.0929
+Epoch 06 | Loss: 0.6497 | Valid IC: 0.0977
+Epoch 07 | Loss: 0.6466 | Valid IC: 0.1008
+  >>> New Best MLP Saved (IC: 0.1008)
+Epoch 08 | Loss: 0.6436 | Valid IC: 0.1004
+Epoch 09 | Loss: 0.6402 | Valid IC: 0.1000
+Epoch 10 | Loss: 0.6379 | Valid IC: 0.1015
+  >>> New Best MLP Saved (IC: 0.1015)
+Epoch 11 | Loss: 0.6359 | Valid IC: 0.0984
+Epoch 12 | Loss: 0.6340 | Valid IC: 0.0987
+Epoch 13 | Loss: 0.6323 | Valid IC: 0.1000
+Epoch 14 | Loss: 0.6299 | Valid IC: 0.0971
+Epoch 15 | Loss: 0.6289 | Valid IC: 0.0962
+
+[MLP] Evaluation Phase...
+----------------------------------------
+Model: MLP Final Results
+Mean RankIC: 0.1175
+RankIC IR  : 1.0711
+----------------------------------------

@@ -1,0 +1,34 @@
+
+############################################################
+### 开始训练模型: Transformer
+### 输出目录: runs_baselines\20251209_172130_Baseline_Transformer
+############################################################
+
+Epoch 01 | Loss: 0.7086 | Valid IC: 0.0487
+  >>> New Best Transformer Saved (IC: 0.0487)
+Epoch 02 | Loss: 0.6858 | Valid IC: 0.0413
+Epoch 03 | Loss: 0.6737 | Valid IC: 0.0362
+Epoch 04 | Loss: 0.6678 | Valid IC: 0.0365
+Epoch 05 | Loss: 0.6628 | Valid IC: 0.0429
+Epoch 06 | Loss: 0.6661 | Valid IC: 0.0706
+  >>> New Best Transformer Saved (IC: 0.0706)
+Epoch 07 | Loss: 0.6602 | Valid IC: 0.0545
+Epoch 08 | Loss: 0.6548 | Valid IC: 0.0497
+Epoch 09 | Loss: 0.6515 | Valid IC: 0.0574
+Epoch 10 | Loss: 0.6499 | Valid IC: 0.0722
+  >>> New Best Transformer Saved (IC: 0.0722)
+Epoch 11 | Loss: 0.6452 | Valid IC: 0.0735
+  >>> New Best Transformer Saved (IC: 0.0735)
+Epoch 12 | Loss: 0.6405 | Valid IC: 0.0824
+  >>> New Best Transformer Saved (IC: 0.0824)
+Epoch 13 | Loss: 0.6431 | Valid IC: 0.0838
+  >>> New Best Transformer Saved (IC: 0.0838)
+Epoch 14 | Loss: 0.6398 | Valid IC: 0.0642
+Epoch 15 | Loss: 0.6374 | Valid IC: 0.0671
+
+[Transformer] Evaluation Phase...
+----------------------------------------
+Model: Transformer Final Results
+Mean RankIC: 0.0930
+RankIC IR  : 0.8758
+----------------------------------------
